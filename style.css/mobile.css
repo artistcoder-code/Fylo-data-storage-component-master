@@ -1,0 +1,56 @@
+@media screen and (max-width: 767.98px) {
+  
+    .container {
+      flex-direction: column;
+    }
+  
+    .background-img {
+      background-image: url(/images/bg-mobile.svg);
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+    }
+  
+    .left-box {
+      height: 12.5rem;
+      width: 22.375rem;
+  }
+  
+    .right-box {
+      margin-right: 10px;
+      height: 9.375rem;
+      width: 22.375rem; 
+  }
+  
+  .progress-bar{
+    height: 1.0625rem;
+    width: 16.3125rem;
+  }
+  
+  .full-bar{
+    height: 0.5625rem;
+    width: 12.25rem;
+  }
+  
+  .bar-pointer{
+    height: 0.5625rem;
+    left: 94%;
+    top: 1%;
+    width: 0.625rem;
+  }
+  
+  .right-text{
+    left: 71%;
+  }
+  
+  .floating-div{
+    position: relative;
+    right: -16%;
+    top: -1rem;
+  }
+  
+  .bubble-speach-item {
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  }
